@@ -1,0 +1,29 @@
+.interests {
+  padding: 20px;
+  background-color: #000000ad;
+  color: #fff;
+  text-align: center;
+}
+
+.interests h2 {
+  font-size: 20px;
+}
+
+.interests ul {
+  padding: 0;
+}
+
+.interests li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 720px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 360px) {}

@@ -1,0 +1,53 @@
+.contactForm {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background-color: #000000ad;
+  color: #FFFFFF;
+}
+
+.contactForm h2 {
+  font-size: 20px;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contactForm input,
+.contactForm textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.contactForm button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.successMessage {
+  margin-top: 10px;
+  color: #4caf50;
+}
+
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 720px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 360px) {}

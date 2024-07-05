@@ -1,0 +1,96 @@
+.about {
+  position: relative;
+  padding: 20px;
+  background-color: #000000ad;
+  color:#FFFFFF;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.body{
+  max-height:30vh;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.paragraph {
+  font-size: 1.25rem;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.section {
+  margin-top: 1.5rem;
+}
+
+.list {
+  margin-top: 1rem;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.itemTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.itemContent {
+  font-size: 1.125rem;
+  margin-left: 1rem;
+}
+
+.listDisc {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.technologyList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  font-size: 1.125rem;
+}
+
+.technologyItem {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactText {
+  font-size: 1.125rem;
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 720px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 480px) {
+.body{
+  max-height:20vh;
+}
+}
+
+@media (max-width: 360px) {
+.body{
+  max-height:20vh;
+}
+}
