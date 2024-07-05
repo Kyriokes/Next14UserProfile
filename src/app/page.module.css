@@ -5,7 +5,8 @@
   background-color: #000000ad;
   border-radius: 1rem;
 }
-.content{
+
+.content {
   max-height: 100vh;
   box-sizing: border-box;
   position: relative;

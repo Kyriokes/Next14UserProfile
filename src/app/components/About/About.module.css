@@ -2,14 +2,14 @@
   position: relative;
   padding: 20px;
   background-color: #000000ad;
-  color:#FFFFFF;
+  color: #FFFFFF;
   overflow-x: hidden;
   overflow-y: scroll;
   box-sizing: border-box;
 }
 
-.body{
-  max-height:30vh;
+.body {
+  max-height: 30vh;
 }
 
 .heading {
@@ -71,26 +71,20 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) {}
 
-}
+@media (max-width: 720px) {}
 
-@media (max-width: 720px) {
-
-}
-
-@media (max-width: 600px) {
-
-}
+@media (max-width: 600px) {}
 
 @media (max-width: 480px) {
-.body{
-  max-height:20vh;
-}
+  .body {
+    max-height: 20vh;
+  }
 }
 
 @media (max-width: 360px) {
-.body{
-  max-height:20vh;
-}
+  .body {
+    max-height: 20vh;
+  }
 }

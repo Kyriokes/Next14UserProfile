@@ -19,8 +19,11 @@ const Header: React.FC<HeaderProps> = ({ setActiveTab }) => (
 			/>
 			<div className={styles.username}>
 				<h2>Hi! I{"'"}m</h2>
-			<h1>Sergio<br/> Ferrari<br/> Bryce</h1>
-			
+				<h1>
+					Sergio
+					<br /> Ferrari
+					<br /> Bryce
+				</h1>
 			</div>
 		</div>
 		<nav className={styles.nav}>
