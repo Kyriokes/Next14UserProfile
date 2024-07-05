@@ -3,6 +3,10 @@
   background-color: #000000ad;
   color: #fff;
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  max-height: 44vh;
 }
 
 .interests h2 {
@@ -18,11 +22,20 @@
   margin: 5px 0;
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+  .interests {
+    max-height: 42vh;
+  }
+
+}
 
 @media (max-width: 720px) {}
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+  .interests {
+    max-height: 40vh;
+  }
+}
 
 @media (max-width: 480px) {}
 
